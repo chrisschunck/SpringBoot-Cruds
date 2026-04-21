@@ -8,20 +8,16 @@ Cadastro de entidades via API REST
 
 Consulta de registros por ID ou listagem completa
 
-Atualização de dados existentes
-
 Exclusão de registros
 
-Organização modular em camadas (Controller, Service, Repository, Entity)
-
 # ⚙️ Tecnologias
-Java 17+
+Java 25 +
 
 Spring Boot
 
 Spring Data JPA
 
-H2 Database (ou outro banco relacional configurado)
+H2 Database
 
 Maven para gerenciamento de dependências
 
@@ -45,8 +41,6 @@ Inserção de registros via requisições POST
 
 Consulta de registros via GET
 
-Atualização de registros via PUT
-
 Exclusão de registros via DELETE
 
 Respostas em formato JSON
@@ -67,14 +61,15 @@ Clone o repositório:
 
 bash
 git clone https://github.com/seuusuario/SpringBoot-Cruds.git
-Compile e execute:
 
+Compile e execute:
 bash
 mvn spring-boot:run
-Acesse a aplicação na porta configurada:
 
+Acesse a aplicação na porta configurada:
 Code
 http://localhost:3000
+
 # 💡 Exemplo de Uso
 Cadastro de entidade (POST)
 json
@@ -86,21 +81,17 @@ POST /api/colaboradores
   "salario": 4500,
   "dataAdmissao": "2022-02-01"
 }
+
 Consulta de entidade (GET)
 Code
 GET /api/colaboradores/1
 Atualização de entidade (PUT)
 json
-PUT /api/colaboradores/1
-{
-  "nome": "Maria Silva",
-  "cargo": "Analista Sênior",
-  "salario": 5500,
-  "dataAdmissao": "2022-02-01"
-}
+
 Exclusão de entidade (DELETE)
 Code
 DELETE /api/colaboradores/1
+
 # 👨‍🏫 Avaliação
 Critérios atendidos:
 
@@ -115,9 +106,3 @@ Uso de Spring Boot e JPA
 Modularização e boas práticas de código
 
 Documentação clara
-
-# 🧾 Autor
-Christian Schunck de Almeida
-
-📎 Licença
-Este projeto é acadêmico e livre para fins educacionais.
