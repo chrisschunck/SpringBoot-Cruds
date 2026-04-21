@@ -1,5 +1,5 @@
 # 🌐 SpringBoot-Cruds
-Projeto desenvolvido para a disciplina de Programação Orientada a Objetos com o objetivo de aplicar conceitos de arquitetura em camadas utilizando Spring Boot, explorando controllers, services, repositories e entities para operações CRUD em um sistema corporativo.
+Projeto desenvolvido com o objetivo de aplicar conceitos de arquitetura em camadas utilizando Spring Boot, explorando controllers, services, repositories e entities para operações CRUD.
 
 # 📌 Objetivo
 Gerenciar entidades de forma simples através de operações CRUD (Create, Read, Update, Delete). A aplicação permite:
