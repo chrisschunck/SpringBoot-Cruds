@@ -1,4 +1,4 @@
-# 🌐 SpringBoot-Cruds
+# 🌐 SpringBoot-Crud
 Projeto desenvolvido com o objetivo de aplicar conceitos de arquitetura em camadas utilizando Spring Boot, explorando controllers, services, repositories e entities para operações CRUD.
 
 # 📌 Objetivo
